@@ -1,0 +1,27 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 1b00da75-1105-4a09-ac4c-6ababb57ad6b
+  title: Studio K
+  description: A little workshop of potential literature in the lineage of Oulipo
+  keywords: 
+      - oulipo
+      - Ouvroir-de-littérature-potentielle
+  authors:
+      - Kayla Marginean
+  github: kmarginean/studiok
+  toc:
+      - file: intropage.md
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  exports:
+    - format: pdf
+      template: lapreprint-typst
+      articles: intropage.md
+site:
+  template: book-theme
+  logo: site_logo.png
+  options:
+      - logo: site_logo.png
+
+
+  
